@@ -7,7 +7,7 @@
     "lint": "echo add linter",
     "lint.fix": "npm run lint -- --fix",
     "test": "jest",
-    "build": "npm run clean && npm run copy && npm run compile && npm run bundle && npm run build.vetur && npm run build.web-types",
+    "build": "npm run clean && npm run copy && npm run compile && npm run bundle && npm run build.vetur",
     "bundle": "rollup --config rollup.config.js",
     "clean": "rimraf dist dist-transpiled",
     "compile": "npm run tsc",
@@ -77,5 +77,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "8671b4292e7a64d2bbd0d10e8c744bc70e15e599"
+  "gitHead": "000ded0416ab6c2e51669731ab5295287fe3a141"
 }
