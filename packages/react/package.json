@@ -20,7 +20,7 @@
     "prepublishOnly": "npm run build",
     "build": "npm run clean && npm run copy && npm run compile",
     "clean": "rimraf dist && rimraf dist-transpiled && rimraf routing",
-    "compile": "npm run tsc && rollup -c",
+    "compile": "npm run tsc",
     "release": "np --any-branch --yolo --no-release-draft",
     "lint": "tslint --project .",
     "lint.fix": "tslint --project . --fix",
@@ -91,5 +91,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "2011ac33acdf7b08f159a9248aa6fd579b30e985"
+  "gitHead": "649cf8cc3dfdfef2a4d4118f8b3c729cf65da558"
 }
