@@ -1,6 +1,6 @@
 {
   "name": "@monorepo-starter/react",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "React specific wrapper for @monorepo-starter/core",
   "keywords": [
     "stencil",
@@ -38,7 +38,7 @@
     "css/"
   ],
   "dependencies": {
-    "@monorepo-starter/core": "^7.0.0",
+    "@monorepo-starter/core": "^7.0.1",
     "ionicons": "^6.0.2",
     "tslib": "*"
   },

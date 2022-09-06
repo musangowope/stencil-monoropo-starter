@@ -1,6 +1,6 @@
 {
   "name": "@monorepo-starter/vue",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "Vue specific wrapper for @monorepo-starter/core",
   "scripts": {
     "prepublishOnly": "npm run build",
@@ -61,7 +61,7 @@
     "vue-router": "^4.0.16"
   },
   "dependencies": {
-    "@monorepo-starter/core": "^7.0.0",
+    "@monorepo-starter/core": "^7.0.1",
     "ionicons": "^6.0.2"
   },
   "vetur": {
