@@ -71,5 +71,10 @@
   "web-types": "dist/web-types.json",
   "sideEffects": [
     "css/*.css"
-  ]
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
