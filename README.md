@@ -24,7 +24,7 @@ TODO..
 
 ## Building libraries and publishing:
 - Run `lerna run build`
-- Run `lerna publish`
+- Run `lerna publish --no-private`
 TODO: Improve description
 
 PS: Fork it, take it apart, improve on this
