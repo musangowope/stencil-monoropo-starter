@@ -1,6 +1,6 @@
 {
   "name": "@monorepo-starter/core",
-  "version": "7.0.4",
+  "version": "7.0.5",
   "description": "Base components for Ionic",
   "keywords": [
     "ionic",
