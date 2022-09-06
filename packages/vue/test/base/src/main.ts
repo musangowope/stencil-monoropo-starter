@@ -2,23 +2,23 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router';
 
-import { IonicVue } from '@monorepo-starter/vue';
+import { IonicVue } from '@musangowope/cool-components-vue';
 
 /* Core CSS required for Ionic components to work properly */
-import '@monorepo-starter/vue/css/core.css';
+import '@musangowope/cool-components-vue/css/core.css';
 
 /* Basic CSS for apps built with Ionic */
-import '@monorepo-starter/vue/css/normalize.css';
-import '@monorepo-starter/vue/css/structure.css';
-import '@monorepo-starter/vue/css/typography.css';
+import '@musangowope/cool-components-vue/css/normalize.css';
+import '@musangowope/cool-components-vue/css/structure.css';
+import '@musangowope/cool-components-vue/css/typography.css';
 
 /* Optional CSS utils that can be commented out */
-import '@monorepo-starter/vue/css/padding.css';
-import '@monorepo-starter/vue/css/float-elements.css';
-import '@monorepo-starter/vue/css/text-alignment.css';
-import '@monorepo-starter/vue/css/text-transformation.css';
-import '@monorepo-starter/vue/css/flex-utils.css';
-import '@monorepo-starter/vue/css/display.css';
+import '@musangowope/cool-components-vue/css/padding.css';
+import '@musangowope/cool-components-vue/css/float-elements.css';
+import '@musangowope/cool-components-vue/css/text-alignment.css';
+import '@musangowope/cool-components-vue/css/text-transformation.css';
+import '@musangowope/cool-components-vue/css/flex-utils.css';
+import '@musangowope/cool-components-vue/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';

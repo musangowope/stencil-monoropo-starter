@@ -1,7 +1,7 @@
 {
-  "name": "@monorepo-starter/vue",
+  "name": "@musangowope/cool-components-vue",
   "version": "7.0.9",
-  "description": "Vue specific wrapper for @monorepo-starter/core",
+  "description": "Vue specific wrapper for @musangowope/cool-components",
   "scripts": {
     "prepublishOnly": "npm run build",
     "lint": "echo add linter",
@@ -61,7 +61,7 @@
     "vue-router": "^4.0.16"
   },
   "dependencies": {
-    "@monorepo-starter/core": "^7.0.9",
+    "@musangowope/cool-components": "^7.0.9",
     "ionicons": "^6.0.2"
   },
   "vetur": {
@@ -77,5 +77,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "3f5fdaaab2d9fa7c0f318c70d7f63bebd8319696"
+  "gitHead": "1bc138b4b0dfd277b63a44f38e71702545d6d154"
 }

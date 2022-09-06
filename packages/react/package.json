@@ -1,7 +1,7 @@
 {
-  "name": "@monorepo-starter/react",
+  "name": "@musangowope/cool-components-react",
   "version": "7.0.9",
-  "description": "React specific wrapper for @monorepo-starter/core",
+  "description": "React specific wrapper for @musangowope/cool-components",
   "keywords": [
     "stencil",
     "framework",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/musangowope/stencil-monoropo-starter.git"
+    "url": "git+https://github.com/musangowope/stencil-monoropo-starter.git"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
@@ -38,7 +38,7 @@
     "css/"
   ],
   "dependencies": {
-    "@monorepo-starter/core": "^7.0.9",
+    "@musangowope/cool-components": "^7.0.9",
     "ionicons": "^6.0.2",
     "tslib": "*"
   },
@@ -91,5 +91,9 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "3f5fdaaab2d9fa7c0f318c70d7f63bebd8319696"
+  "bugs": {
+    "url": "https://github.com/musangowope/stencil-monoropo-starter/issues"
+  },
+  "homepage": "https://github.com/musangowope/stencil-monoropo-starter#readme",
+  "author": "musangowope"
 }

@@ -1,5 +1,5 @@
 const fs = require("fs")
-const docs = require("@monorepo-starter/core/dist/docs.json")
+const docs = require("@musangowope/cool-components/dist/docs.json")
 const { pascalCase } = require('change-case')
 
 const components = []
@@ -52,7 +52,7 @@ for (const component of docs.components) {
     "doc-url": docUrl,
     description: component.docs,
     source: {
-      module: "@monorepo-starter/core/" + component.filePath.replace("./src/", "dist/types/").replace(".tsx", ".d.ts"),
+      module: "@musangowope/cool-components/" + component.filePath.replace("./src/", "dist/types/").replace(".tsx", ".d.ts"),
       symbol: componentName.substr(3)
     },
     attributes,
@@ -64,7 +64,7 @@ for (const component of docs.components) {
 const webTypes = {
   $schema: "http://json.schemastore.org/web-types",
   framework: "vue",
-  name: "@monorepo-starter/vue",
+  name: "@musangowope/cool-components-vue",
   version: require("../package.json").version,
   contributions: {
     html: {

@@ -23,16 +23,16 @@
     "target": "es2017",
     "baseUrl": ".",
     "paths": {
-      "@monorepo-starter/core/hydrate": [
+      "@musangowope/cool-components/hydrate": [
         "./core/hydrate"
       ],
-      "@monorepo-starter/core": [
+      "@musangowope/cool-components": [
         "./core"
       ],
-      "@monorepo-starter/react": [
+      "@musangowope/cool-components-react": [
         "./react"
       ],
-      "@monorepo-starter/vue": [
+      "@musangowope/cool-components-vue": [
         "./vue"
       ]
     }

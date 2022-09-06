@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-starter/core",
+  "name": "@musangowope/cool-components",
   "version": "7.0.9",
   "description": "Base components for Ionic",
   "keywords": [
@@ -39,8 +39,8 @@
     "@axe-core/puppeteer": "^4.3.2",
     "@babel/core": "^7.18.13",
     "@jest/core": "^26.6.3",
-    "@monorepo-starter/eslint-config": "^0.3.0",
-    "@monorepo-starter/prettier-config": "^2.0.0",
+    "@musangowope/eslint-config": "^0.3.0",
+    "@musangowope/prettier-config": "^2.0.0",
     "@playwright/test": "^1.23.3",
     "@rollup/plugin-node-resolve": "^8.4.0",
     "@rollup/plugin-virtual": "^2.0.3",
@@ -133,5 +133,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "3f5fdaaab2d9fa7c0f318c70d7f63bebd8319696"
+  "gitHead": "1bc138b4b0dfd277b63a44f38e71702545d6d154"
 }

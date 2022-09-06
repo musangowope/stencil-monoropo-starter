@@ -14,14 +14,14 @@ export const config: Config = {
   ],
   outputTargets: [
     reactOutputTarget({
-      componentCorePackage: '@monorepo-starter/core',
+      componentCorePackage: '@musangowope/cool-components',
       includeImportCustomElements: true,
       includePolyfills: false,
       includeDefineCustomElements: false,
       proxiesFile: '../packages/react/src/components/proxies.ts',
     }),
     vueOutputTarget({
-      componentCorePackage: '@monorepo-starter/core',
+      componentCorePackage: '@musangowope/cool-components',
       includeImportCustomElements: true,
       includePolyfills: false,
       includeDefineCustomElements: false,

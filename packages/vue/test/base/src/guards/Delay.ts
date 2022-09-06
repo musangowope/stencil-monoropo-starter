@@ -1,4 +1,4 @@
-import { loadingController } from '@monorepo-starter/vue';
+import { loadingController } from '@musangowope/cool-components-vue';
 import {
   NavigationGuardNext,
   RouteLocationNormalized

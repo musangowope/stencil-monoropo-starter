@@ -34,7 +34,7 @@ import {
   IonTitle,
   IonToolbar,
   modalController
-} from '@monorepo-starter/vue';
+} from '@musangowope/cool-components-vue';
 import { defineComponent } from 'vue';
 import Nav from '@/components/Nav.vue';
 export default defineComponent({

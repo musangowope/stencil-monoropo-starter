@@ -12,7 +12,7 @@
   npm install
 
 
-Notice that `@monorepo-starter/core` lives in `core`.
+Notice that `@musangowope/cool-components` lives in `core`.
 
 ### 3. Run `npm start`
 

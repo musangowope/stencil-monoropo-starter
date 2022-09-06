@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils';
-import { createRouter, createWebHistory } from '@monorepo-starter/vue-router';
-import { IonicVue, IonApp, IonRouterOutlet, IonPage, IonTabs, IonTabBar, IonTabButton, IonLabel } from '@monorepo-starter/vue';
+import { createRouter, createWebHistory } from '@musangowope/cool-components-vue-router';
+import { IonicVue, IonApp, IonRouterOutlet, IonPage, IonTabs, IonTabBar, IonTabButton, IonLabel } from '@musangowope/cool-components-vue';
 import { waitForRouter } from './utils';
 
 const App = {

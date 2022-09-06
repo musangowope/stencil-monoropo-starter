@@ -47,7 +47,7 @@ import {
   onIonViewDidEnter,
   onIonViewWillLeave,
   onIonViewDidLeave
-} from '@monorepo-starter/vue';
+} from '@musangowope/cool-components-vue';
 import { defineComponent, ref } from 'vue';
 export default defineComponent({
   components: {

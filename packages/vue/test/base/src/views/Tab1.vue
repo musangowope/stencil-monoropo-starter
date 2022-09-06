@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import { IonButtons, IonBackButton, IonPage, IonHeader, IonItem, IonLabel, IonToolbar, IonTitle, IonContent } from '@monorepo-starter/vue';
+import { IonButtons, IonBackButton, IonPage, IonHeader, IonItem, IonLabel, IonToolbar, IonTitle, IonContent } from '@musangowope/cool-components-vue';
 import ExploreContainer from '@/components/ExploreContainer.vue';
 
 export default  {

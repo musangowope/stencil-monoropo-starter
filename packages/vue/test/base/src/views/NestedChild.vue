@@ -34,7 +34,7 @@ import {
   IonPage,
   IonTitle,
   IonToolbar
-} from '@monorepo-starter/vue';
+} from '@musangowope/cool-components-vue';
 import { defineComponent } from 'vue';
 
 export default defineComponent({

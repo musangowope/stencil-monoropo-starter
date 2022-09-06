@@ -38,7 +38,7 @@ import {
   IonToolbar,
   IonTitle,
   IonContent
-} from '@monorepo-starter/vue';
+} from '@musangowope/cool-components-vue';
 
 export default  {
   props: { id: String },
