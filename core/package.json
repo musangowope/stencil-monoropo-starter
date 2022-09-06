@@ -120,7 +120,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/ionic.git"
+    "url": "git+https://github.com/musangowope/stencil-monoropo-starter.git"
   },
   "bugs": {
     "url": "https://github.com/ionic-team/ionic/issues"
@@ -134,5 +134,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "49e2d622e72f58b78b9c07ef0c8f13b40c59f716"
+  "gitHead": "d631f3b14d2b5e9931f7a4c8f16ee13eff9bd1b7"
 }
