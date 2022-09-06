@@ -115,7 +115,7 @@ describe('ion-tab-bar', () => {
     expect(tabsInner.children[0].tagName).toEqual('ION-ROUTER-OUTLET');
   });
 
-  // Verifies the fix for https://github.com/ionic-team/ionic-framework/issues/22642
+  // Verifies the fix for https://github.com/musangowope/stencil-monoropo-starter-framework/issues/22642
   it('should not fail on non tab button elements', async () => {
     const Tabs = {
       components: { IonPage, IonTabs, IonTabBar, IonRouterOutlet },

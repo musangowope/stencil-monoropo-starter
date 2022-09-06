@@ -97,7 +97,7 @@ ion-header.header-collapse-condense ion-toolbar:last-of-type {
 
 #### Icons
 
-Ionic 6 now ships with Ionicons 6. Please be sure to review the [Ionicons 6.0.0 Changelog](https://github.com/ionic-team/ionicons/releases/tag/v6.0.0) and make any necessary changes.
+Ionic 6 now ships with Ionicons 6. Please be sure to review the [Ionicons 6.0.0 Changelog](https://github.com/musangowope/stencil-monoropo-starterons/releases/tag/v6.0.0) and make any necessary changes.
 
 #### Input
 
@@ -1047,7 +1047,7 @@ Now, the `mode` only needs to be set on the `ion-segment` and it will be inherit
 
 Ionicons 5 has been released! :tada: This brings many changes including a top to bottom re-draw of every icon, variants for each icon (filled, outline, and sharp), and the removal of auto-switching icons based on the platform.
 
-For more information, check out the [Ionicons Changelog](https://github.com/ionic-team/ionicons/blob/master/CHANGELOG.md)!
+For more information, check out the [Ionicons Changelog](https://github.com/musangowope/stencil-monoropo-starterons/blob/master/CHANGELOG.md)!
 
 
 
@@ -1055,8 +1055,8 @@ For more information, check out the [Ionicons Changelog](https://github.com/ioni
 
 ## Version 4.x
 
-The list of the breaking changes introduced in Ionic Angular v4 can be found in [angular/BREAKING.md](https://github.com/ionic-team/ionic/blob/master/angular/BREAKING.md).
+The list of the breaking changes introduced in Ionic Angular v4 can be found in [angular/BREAKING.md](https://github.com/musangowope/stencil-monoropo-starter/blob/master/angular/BREAKING.md).
 
 ## Legacy
 
-For the breaking changes of the older legacy versions (versions 2.x & 3.x) of Ionic Framework, see the [v3 changelog](https://github.com/ionic-team/ionic-v3/blob/master/CHANGELOG.md).
+For the breaking changes of the older legacy versions (versions 2.x & 3.x) of Ionic Framework, see the [v3 changelog](https://github.com/musangowope/stencil-monoropo-starter-v3/blob/master/CHANGELOG.md).

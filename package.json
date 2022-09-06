@@ -1,4 +1,5 @@
 {
+  "name": "monorepo-starter",
   "private": false,
   "description": "Monorepo starter root package.json, used mainly to execute build scripts. This package is not published to npm.",
   "devDependencies": {

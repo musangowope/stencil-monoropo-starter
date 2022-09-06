@@ -7,7 +7,7 @@
     "lint": "echo add linter",
     "lint.fix": "npm run lint -- --fix",
     "test": "jest",
-    "build": "npm run clean && npm run copy && npm run compile && npm run bundle && npm run build.vetur && npm run build.web-types",
+    "build": "npm run clean && npm run copy && npm run compile && npm run bundle",
     "bundle": "rollup --config rollup.config.js",
     "clean": "rimraf dist dist-transpiled",
     "compile": "npm run tsc",
@@ -46,9 +46,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/ionic/issues"
+    "url": "https://github.com/musangowope/stencil-monoropo-starter/issues"
   },
-  "homepage": "https://github.com/ionic-team/ionic#readme",
+  "homepage": "https://github.com/musangowope/stencil-monoropo-starter#readme",
   "devDependencies": {
     "@babel/types": "^7.18.4",
     "@stencil/core": "^1.17.0",
@@ -77,5 +77,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "49e2d622e72f58b78b9c07ef0c8f13b40c59f716"
+  "gitHead": "2011ac33acdf7b08f159a9248aa6fd579b30e985"
 }

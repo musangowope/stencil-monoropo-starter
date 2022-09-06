@@ -10,9 +10,7 @@ export const config: Config = {
   autoprefixCss: true,
   namespace: 'Ionic',
   plugins: [
-    sass({
-      injectGlobalPaths: ['src/themes/ionic.skip-warns.scss']
-    })
+    sass()
   ],
   outputTargets: [
     reactOutputTarget({
@@ -32,7 +30,7 @@ export const config: Config = {
     {
       type: 'docs-vscode',
       file: 'dist/html.html-data.json',
-      sourceCodeBaseUrl: 'https://github.com/ionic-team/ionic/tree/main/core/',
+      sourceCodeBaseUrl: 'https://github.com/musangowope/stencil-monoropo-starter/tree/main/core/',
     },
     {
       type: 'dist',

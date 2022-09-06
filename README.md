@@ -1,6 +1,6 @@
 ## Monorepo starter template
 
-This is a work in progress monorepo adapted from [ionic](https://github.com/ionic-team/ionic-framework). 
+This is a work in progress monorepo adapted from [ionic](https://github.com/musangowope/stencil-monoropo-starter-framework). 
 It is template that contains a sample to component libraries. Stencil being the core library,
 and react and vue generated libraries being generated from that core library through [stencil-ds-output-targets](https://github.com/ionic-team/stencil-ds-output-targets)
 

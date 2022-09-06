@@ -42,7 +42,7 @@ From there, developers can install the Framework v6 beta:
 npm install @monorepo-starter/vue@next @monorepo-starter/vue-router@next
 ```
 
-Next, developers should review the breaking changes and make any changes necessary in their apps: https://github.com/ionic-team/ionic-framework/blob/next/BREAKING.md
+Next, developers should review the breaking changes and make any changes necessary in their apps: https://github.com/musangowope/stencil-monoropo-starter-framework/blob/next/BREAKING.md
 
 After that, you should be good to go! Check out https://beta.ionicframework.com/docs for the Framework v6 documentation.
 
@@ -60,9 +60,9 @@ From there, developers can install the Framework v6 beta:
 npm install @monorepo-starter/react@next @monorepo-starter/react-router@next
 ```
 
-Next, developers should review the breaking changes and make any changes necessary in their apps: https://github.com/ionic-team/ionic-framework/blob/next/BREAKING.md
+Next, developers should review the breaking changes and make any changes necessary in their apps: https://github.com/musangowope/stencil-monoropo-starter-framework/blob/next/BREAKING.md
 
-After that, you should be good to go! Be sure to review the other breaking changes: https://github.com/ionic-team/ionic-framework/blob/next/BREAKING.md
+After that, you should be good to go! Be sure to review the other breaking changes: https://github.com/musangowope/stencil-monoropo-starter-framework/blob/next/BREAKING.md
 
 Check out https://beta.ionicframework.com/docs for the Framework v6 documentation.
 
@@ -78,7 +78,7 @@ From there, developers can install the Framework v6 beta:
 npm install @monorepo-starter/angular@next
 ```
 
-Next, developers should review the breaking changes and make any changes necessary in their apps: https://github.com/ionic-team/ionic-framework/blob/next/BREAKING.md
+Next, developers should review the breaking changes and make any changes necessary in their apps: https://github.com/musangowope/stencil-monoropo-starter-framework/blob/next/BREAKING.md
 
 After that, you should be good to go! Check out https://beta.ionicframework.com/docs for the Framework v6 documentation.
 
@@ -96,12 +96,12 @@ If you are using Ionic Framework in a Stencil app, be sure to update to the late
 npm install @stencil/core@latest
 ```
 
-Next, developers should review the breaking changes and make any changes necessary in their apps: https://github.com/ionic-team/ionic-framework/blob/next/BREAKING.md
+Next, developers should review the breaking changes and make any changes necessary in their apps: https://github.com/musangowope/stencil-monoropo-starter-framework/blob/next/BREAKING.md
 
 After that, you should be good to go! Check out https://beta.ionicframework.com/docs for the Framework v6 documentation.
 
 ## Providing Feedback
 
-Feedback should be provided on our GitHub repo by creating a new issue: https://github.com/ionic-team/ionic-framework/issues/new/choose
+Feedback should be provided on our GitHub repo by creating a new issue: https://github.com/musangowope/stencil-monoropo-starter-framework/issues/new/choose
 
 Please note in the issue title that you are using the Framework v6 beta!
