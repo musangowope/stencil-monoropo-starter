@@ -1,4 +1,4 @@
-const DocsJson = require('@musangowope/cool-components/dist/docs.json');
+const DocsJson = require('@musangowope/hot-components/dist/docs.json');
 const fs = require('fs');
 
 function generateOverlays() {
@@ -48,7 +48,7 @@ function generateOverlays() {
 
     const defineCustomElementFn = `define${component.name}CustomElement`;
 
-    componentImports.push(`import { defineCustomElement as ${defineCustomElementFn} } from '@musangowope/cool-components/components/${component.tag}.js'`);
+    componentImports.push(`import { defineCustomElement as ${defineCustomElementFn} } from '@musangowope/hot-components/components/${component.tag}.js'`);
 
     if (component.controller) {
       controllerImports.push(component.controller);
@@ -66,7 +66,7 @@ export const ${component.name} = /*@__PURE__*/ defineOverlayContainer<JSX.${comp
 import {
   JSX,
   ${controllerImports.join(',\n  ')},
-} from '@musangowope/cool-components/components';
+} from '@musangowope/hot-components/components';
 
 ${componentImports.join('\n')}
 

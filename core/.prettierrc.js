@@ -1,5 +1,5 @@
 module.exports = {
-  ...require('@musangowope/prettier-config'),
+  ...require('@ionic/prettier-config'),
   overrides: [
     {
       files: ['**/*.scss'],

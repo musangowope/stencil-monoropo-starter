@@ -16,6 +16,5 @@ export default {
       preferConst: true,
       sourcemap: true
     }
-  ],
-  external: id => external.includes(id) || id.startsWith('@musangowope/cool-components') || id.startsWith('ionicons')
+  ]
 };

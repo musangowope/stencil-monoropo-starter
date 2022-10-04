@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["resize-observer-browser"],
     "strict": true,
     "alwaysStrict": true,
     "allowSyntheticDefaultImports": true,
@@ -10,11 +11,8 @@
     "assumeChangesOnlyAffectDirectDependencies": true,
     "jsx": "react",
     "jsxFactory": "h",
-    "lib": [
-      "dom",
-      "es2017",
-      "es2020"
-    ],
+    "resolveJsonModule": true,
+    "lib": ["dom", "es2017", "es2020"],
     "module": "esnext",
     "moduleResolution": "node",
     "noImplicitAny": true,
@@ -31,13 +29,6 @@
       "@utils/test": ["src/utils/test/utils"]
     }
   },
-  "include": [
-    "src",
-  ],
-  "exclude": [
-    "node_modules",
-    "**/test/**/*.spec.ts",
-    "**/test/**/*.spec.tsx",
-    "**/test/**/e2e.ts"
-  ]
+  "include": ["src", "node_modules/@stencil/core/compiler/lib.dom.d.ts"],
+  "exclude": ["node_modules", "**/test/**/*.spec.ts", "**/test/**/*.spec.tsx", "**/test/**/e2e.ts"]
 }

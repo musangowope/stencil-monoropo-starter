@@ -1,19 +1,17 @@
 {
-  "name": "@musangowope/cool-components-vue",
-  "version": "7.0.10",
-  "description": "Vue specific wrapper for @musangowope/cool-components",
+  "name": "@musangowope/hot-components-vue",
+  "version": "1.0.0",
+  "description": "Vue specific wrapper for @musangowope/hot-components",
   "scripts": {
     "prepublishOnly": "npm run build",
     "lint": "echo add linter",
     "lint.fix": "npm run lint -- --fix",
-    "test": "jest",
     "build": "npm run clean && npm run copy && npm run compile",
     "bundle": "rollup --config rollup.config.js",
     "clean": "rimraf dist dist-transpiled",
-    "compile": "npm run tsc",
+    "compile": "npm run tsc && rollup -c",
     "tsc": "tsc -p .",
     "build.web-types": "node ./scripts/build-web-types.js",
-    "build.vetur": "node ./scripts/build-vetur.js",
     "copy": "node ./scripts/copy-css.js",
     "copy.overlays": "node ./scripts/copy-overlays.js",
     "sync": "sh ./scripts/sync.sh"
@@ -27,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/musangowope/stencil-monoropo-starter.git"
+    "url": "git@github.com:musangowope/stencil-monoropo-starter.git"
   },
   "keywords": [
     "ionic",
@@ -43,12 +41,12 @@
     "app",
     "pwa"
   ],
-  "author": "",
-  "license": "MIT",
+  "author": "Musango Wope <musangow@gmail.com>",
+  "license": "LGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/musangowope/stencil-monoropo-starter/issues"
+    "url": "git@github.com:musangowope/stencil-monoropo-starter.git/issues"
   },
-  "homepage": "https://github.com/musangowope/stencil-monoropo-starter#readme",
+  "homepage": "git@github.com:musangowope/stencil-monoropo-starter.git#readme",
   "devDependencies": {
     "@babel/types": "^7.18.4",
     "@stencil/core": "^1.17.0",
@@ -61,12 +59,10 @@
     "vue-router": "^4.0.16"
   },
   "dependencies": {
-    "@musangowope/cool-components": "^7.0.10",
+    "@musangowope/hot-components": "^1.0.0",
+    "@types/node": "^18.7.18",
+    "@types/resize-observer-browser": "^0.1.7",
     "ionicons": "^6.0.2"
-  },
-  "vetur": {
-    "tags": "dist/vetur/tags.json",
-    "attributes": "dist/vetur/attributes.json"
   },
   "web-types": "dist/web-types.json",
   "sideEffects": [
@@ -77,5 +73,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "gitHead": "1bc138b4b0dfd277b63a44f38e71702545d6d154"
+  "gitHead": "7d726350cee76a7e4d17ab0bd195271adbbcabad"
 }

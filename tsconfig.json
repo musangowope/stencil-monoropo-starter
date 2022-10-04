@@ -23,16 +23,16 @@
     "target": "es2017",
     "baseUrl": ".",
     "paths": {
-      "@musangowope/cool-components/hydrate": [
+      "@musangowope/hot-components/hydrate": [
         "./core/hydrate"
       ],
-      "@musangowope/cool-components": [
+      "@musangowope/hot-components": [
         "./core"
       ],
-      "@musangowope/cool-components-react": [
+      "@musangowope/hot-components-react": [
         "./react"
       ],
-      "@musangowope/cool-components-vue": [
+      "@musangowope/hot-components-vue": [
         "./vue"
       ]
     }

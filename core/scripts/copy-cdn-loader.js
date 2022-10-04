@@ -1,4 +1,3 @@
-
 // the unpkg link cannot use "latest" in the url
 // so this script is to keep the link updated
 // with the latest
@@ -17,11 +16,11 @@ if (version) {
 const srcPath = path.join(__dirname, 'cdn-loader.js');
 let scriptContent = fs.readFileSync(srcPath, 'utf-8');
 
-// https://unpkg.com/@musangowope/cool-components@latest/dist/ionic.js
+// https://unpkg.com/@musangowope/hot-components@latest/dist/ionic.js
 
 scriptContent = scriptContent.replace(
   /__CDN_LOADER_URL__/g,
-  'https://cdn.jsdelivr.net/npm/@musangowope/cool-components' + version
+  'https://cdn.jsdelivr.net/npm/@musangowope/hot-components' + version
 );
 
 fs.writeFileSync(path.join(__dirname, '..', 'loader', 'cdn.js'), scriptContent);

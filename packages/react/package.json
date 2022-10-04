@@ -1,26 +1,23 @@
 {
-  "name": "@musangowope/cool-components-react",
-  "version": "7.0.10",
-  "description": "React specific wrapper for @musangowope/cool-components",
+  "name": "@musangowope/hot-components-react",
+  "version": "1.0.0",
+  "description": "React specific wrapper for @musangowope/hot-components",
   "keywords": [
     "stencil",
     "framework",
     "react",
-    "app",
-    "hybrid",
-    "webapp",
-    "pwa"
+    "app"
   ],
-  "license": "MIT",
+  "license": "LGPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/musangowope/stencil-monoropo-starter.git"
+    "url": "git@github.com:musangowope/stencil-monoropo-starter.git"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "npm run clean && npm run copy && npm run compile",
     "clean": "rimraf dist && rimraf dist-transpiled && rimraf routing",
-    "compile": "npm run tsc",
+    "compile": "npm run tsc && rollup -c",
     "release": "np --any-branch --yolo --no-release-draft",
     "lint": "tslint --project .",
     "lint.fix": "tslint --project . --fix",
@@ -38,8 +35,9 @@
     "css/"
   ],
   "dependencies": {
-    "@musangowope/cool-components": "^7.0.10",
-    "ionicons": "^6.0.2",
+    "@musangowope/hot-components": "^1.0.0",
+    "@types/node": "^18.7.18",
+    "@types/resize-observer-browser": "^0.1.7",
     "tslib": "*"
   },
   "peerDependencies": {
@@ -92,8 +90,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "bugs": {
-    "url": "https://github.com/musangowope/stencil-monoropo-starter/issues"
+    "url": "git@github.com:musangowope/stencil-monoropo-starter.git/issues"
   },
-  "homepage": "https://github.com/musangowope/stencil-monoropo-starter#readme",
-  "author": "musangowope"
+  "homepage": "git@github.com:musangowope/stencil-monoropo-starter.git#readme",
+  "author": "Greg Kempe",
+  "gitHead": "7d726350cee76a7e4d17ab0bd195271adbbcabad"
 }

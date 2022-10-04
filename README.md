@@ -1,30 +1,29 @@
-## Monorepo starter template
 
-This is a work in progress monorepo adapted from [ionic](https://github.com/musangowope/stencil-monoropo-starter-framework). 
-It is template that contains a sample to component libraries. Stencil being the core library,
-and react and vue generated libraries being generated from that core library through [stencil-ds-output-targets](https://github.com/ionic-team/stencil-ds-output-targets)
+## Stencil Monorepo starter
 
-Lerna is used to manage monorepo.
+Monorepo that houses sample component libraries:
+- Stencil web component library
+- React library (React wrapper library generated from Stencil web component library)
+- Vue library (Vue wrapper library generated from Stencil web component library)
 
-This repo is a template starter created to act as starting point for those wishing to 
-create a component libraries with `stencil` as the core library, and `react`
-and `vue`generated from that core library
 
 ## Getting started
-**Installing and symlinking dependencies**
-- In the terminal run `npm install`
-- Run `lerna bootstrap`. This will `npm install` `core`, `packages/*` (`react`, `vue`), and automatically symlink them
+Click [here](core/README.md#components) to learn how to use our components.
 
-**Running storybook**
-- `cd core` then run `npm run build` and then `npm run storybook`.
-- For more information on how to use storybook refer to the [docs](https://storybook.js.org/)
 
-## Running tests and testing libraries in Apps
-TODO..
+## Local development
+At the root of project in your terminal, run `npm install`
 
-## Building libraries and publishing:
-- Run `lerna run build`
-- Run `lerna publish --no-private`
-TODO: Improve description
+[Lerna](https://lerna.js.org/) is used for managing and publishing packages in this repo.
 
-PS: Fork it, take it apart, improve on this
+**Installing and symlinking dependencies via Lerna**
+
+Run `lerna bootstrap` in the terminal. This will npm install all the packages (`core`, `react`, `vue`)
+
+## Running tests 
+In the terminal, run `lerna run test`.
+
+## Building packages and publishing
+- To build packages run `lerna run build`
+- To publish packages run `lerna publish --conventional-commits`
+
