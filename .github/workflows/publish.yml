@@ -31,7 +31,7 @@ jobs:
       - name: Version and publish
         id: graduateRelease
         run: |
-          npx lerna version ${{ env.VERSION }}
+          npx lerna version ${{ env.VERSION }} -y
           lerna publish from-package
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
