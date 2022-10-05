@@ -7,7 +7,7 @@ export class GoodByeWorld {
 
   render() {
     return (
-      <Host>Goodbye world and hello</Host>
+      <Host>Goodbye world</Host>
     );
   }
 }
