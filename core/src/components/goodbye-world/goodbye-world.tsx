@@ -7,7 +7,7 @@ export class GoodByeWorld {
 
   render() {
     return (
-      <Host>Goodbye world readd text</Host>
+      <Host>A am a transformer</Host>
     );
   }
 }
