@@ -7,7 +7,10 @@ export class GoodByeWorld {
 
   render() {
     return (
-      <Host>A am a transformer</Host>
+      <Host>
+        <div>A am a transformer</div>
+        <button>New button</button>
+      </Host>
     );
   }
 }
