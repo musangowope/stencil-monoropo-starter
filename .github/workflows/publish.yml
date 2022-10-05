@@ -17,8 +17,12 @@ jobs:
         with:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
+
       - name: Install dependencies and build 🔧
-        run: npm install && npm run build
+        run: | # Install and link dependencies
+          npm ci
+          npx lerna bootstrap
+
       - name: Publish package on NPM 📦
         run: |
           npx lerna version --conventional-commits --conventional-graduate --yes
