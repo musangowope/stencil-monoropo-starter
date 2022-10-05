@@ -1,6 +1,6 @@
 {
   "name": "@musangowope/hot-components-react",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "React specific wrapper for @musangowope/hot-components",
   "keywords": [
     "stencil",
@@ -35,7 +35,7 @@
     "css/"
   ],
   "dependencies": {
-    "@musangowope/hot-components": "^1.0.8",
+    "@musangowope/hot-components": "^1.0.9",
     "@types/node": "^18.7.18",
     "@types/resize-observer-browser": "^0.1.7",
     "tslib": "*"
