@@ -1,10 +1,8 @@
 name: Publish
 
 on:
-  pull_request:
-    types: [closed]
-    branches:
-      - main
+  release:
+    types: [created]
 
 jobs:
   build:
@@ -34,7 +32,7 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
           npx lerna version ${{ env.VERSION }} -y
-          npx lerna publish from-package -y
+          npx lerna publish from-github -y
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
