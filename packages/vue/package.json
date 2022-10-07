@@ -1,6 +1,6 @@
 {
   "name": "@musangowope/hot-components-vue",
-  "version": "1.0.8",
+  "version": "1.1.1",
   "description": "Vue specific wrapper for @musangowope/hot-components",
   "scripts": {
     "prepublishOnly": "npm run build",
@@ -59,7 +59,7 @@
     "vue-router": "^4.0.16"
   },
   "dependencies": {
-    "@musangowope/hot-components": "^1.0.8",
+    "@musangowope/hot-components": "^1.1.1",
     "@types/node": "^18.7.18",
     "@types/resize-observer-browser": "^0.1.7",
     "ionicons": "^6.0.2"
