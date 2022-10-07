@@ -9,7 +9,7 @@ export class GoodByeWorld {
     return (
       <Host>
         <div>A am a transformer</div>
-        <button>Kill button</button>
+        <button>Bring helloworld button</button>
       </Host>
     );
   }
