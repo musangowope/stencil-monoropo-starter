@@ -4,5 +4,5 @@
     "packages/*"
   ],
   "version": "1.3.4",
-  "changelogPreset": "react"
+  "changelogPreset": "conventionalcommits"
 }
