@@ -27,7 +27,6 @@ jobs:
           npx lerna bootstrap
 
       - name: Version and publish
-        uses: actions/checkout@main
         id: graduateRelease
         run: |
           git config user.name "${{ github.actor }}"
