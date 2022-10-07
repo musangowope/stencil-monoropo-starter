@@ -9,7 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          ref: main
 
       - name: Setup Node
         uses: actions/setup-node@v2
@@ -27,11 +29,6 @@ jobs:
           npm ci
           npx lerna bootstrap
 
-      - name: Checkout main
-        uses: actions/checkout@v3
-        with:
-          - main
-          -
       - name: Version and publish
         id: graduateRelease
         run: |
