@@ -1,8 +1,6 @@
 name: Publish
 
 on:
-  branches:
-    - main
   release:
     types: [created]
 
@@ -22,8 +20,6 @@ jobs:
         run: |
           VER=$(cat VERSION)
           echo "VERSION=$VER" >> $GITHUB_ENV
-          echo "GIT_SHA=${GITHUB_SHA}" >> $GITHUB_ENV
-          echo "GIT_BRANCH=${GITHUB_REF##*/}" >> $GITHUB_ENV
 
       - name: Install dependencies and build 🔧
         run: | # Install and link dependencies
@@ -31,11 +27,11 @@ jobs:
           npx lerna bootstrap
 
       - name: Version and publish
+        uses: actions/checkout@main
         id: graduateRelease
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
-          git checkout main
           npx lerna version ${{ env.VERSION }} --conventional-commits --no-push --no-git-tag-version --yes
           npx lerna publish from-github -y
         env:
