@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.8](https://musangowope/compare/v1.0.7...v1.0.8) (2022-10-07)
+
+**Note:** Version bump only for package @musangowope/hot-components
+
+
+
+
+
 ## [6.2.5](git@github.com:musangowope/stencil-monoropo-starter.git/compare/v6.2.4...v6.2.5) (2022-08-31)
 
 ### Bug Fixes
