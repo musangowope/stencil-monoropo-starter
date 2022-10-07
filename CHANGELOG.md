@@ -1,3 +1,17 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## <small>1.3.6 (2022-10-07)</small>
+
+* update ([7148bab](https://github.com/musangowope/stencil-monoropo-starter/commit/7148bab))
+* upgrade ([bb66271](https://github.com/musangowope/stencil-monoropo-starter/commit/bb66271))
+
+
+
+
+
 ##  (2022-10-07)
 
 * update ([7148bab](https://github.com/musangowope/stencil-monoropo-starter/commit/7148bab))
@@ -263,6 +277,3 @@
 
 * init ([4f91d41](https://github.com/musangowope/stencil-monoropo-starter/commit/4f91d41))
 * v7.0.0 ([8e63067](https://github.com/musangowope/stencil-monoropo-starter/commit/8e63067))
-
-
-
