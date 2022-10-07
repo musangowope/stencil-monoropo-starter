@@ -1,6 +1,8 @@
 name: Publish
 
 on:
+  branches:
+    - main
   release:
     types: [created]
 
@@ -20,6 +22,8 @@ jobs:
         run: |
           VER=$(cat VERSION)
           echo "VERSION=$VER" >> $GITHUB_ENV
+          echo "GIT_SHA=${GITHUB_SHA}" >> $GITHUB_ENV
+          echo "GIT_BRANCH=${GITHUB_REF##*/}" >> $GITHUB_ENV
 
       - name: Install dependencies and build 🔧
         run: | # Install and link dependencies
