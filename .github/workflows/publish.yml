@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
-          npx lerna version ${{ env.VERSION }} from-package --no-push --no-git-tag-version --yes
+          npx lerna version ${{ env.VERSION }} --no-push --no-git-tag-version --yes
           npx lerna publish from-package -y
           npx lerna-changelog
         env:
