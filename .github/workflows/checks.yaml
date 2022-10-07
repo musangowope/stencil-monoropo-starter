@@ -18,12 +18,6 @@ jobs:
         with:
           node-version: '14'
 
-      - name: "Setup npm"
-        run: echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-
       - name: Install dependencies
         run: | # Install and link dependencies
           npm ci
