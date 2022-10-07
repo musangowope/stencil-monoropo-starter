@@ -17,12 +17,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14.x'
-          registry-url: 'https://registry.npmjs.org'
-
-      - name: Set variables
-        run: |
-          VER=$(cat VERSION)
-          echo "VERSION=$VER" >> $GITHUB_ENV
+          registry-url: 'https://registry.npmjs.org
 
       - name: Install dependencies and build 🔧
         run: | # Install and link dependencies
@@ -34,8 +29,6 @@ jobs:
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
-          npx lerna version ${{ env.VERSION }} --no-push --no-git-tag-version --yes
           npx lerna publish from-package -y
-          npx lerna-changelog
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
